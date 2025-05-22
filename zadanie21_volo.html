@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 21 - Użycie ID</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      font-family: Arial;
+    }
+
+    th {
+      background-color: #ddd;
+    }
+
+    /* Przykład użycia ID */
+    p {
+      color: green;
+      font-size: 14pt;
+    }
+
+    p#pochyly {
+      font-style: italic;
+      font-size: 20pt;
+    }
+  </style>
+</head>
+<body bgcolor="#20B2AA">
+<body>
+
+<h2>Zadanie 21 – Zastosowanie identyfikatora ID w CSS</h2>
+
+<table>
+  <tr>
+    <th>Pojęcie</th>
+    <th>Znaczenie – uzupełnione przez ucznia</th>
+  </tr>
+  <tr>
+    <td>Co znaczy skrót ID?</td>
+    <td>ID to identyfikator – unikalna nazwa elementu HTML, służąca do jego jednoznacznego oznaczenia w dokumencie.</td>
+  </tr>
+  <tr>
+    <td>Jaki jest cel stosowania ID?</td>
+    <td>ID pozwala na indywidualne formatowanie pojedynczego elementu, nawet jeśli występuje wiele podobnych na stronie.</td>
+  </tr>
+  <tr>
+    <td>Jakie jest znaczenie znaku #?</td>
+    <td>Znak # w CSS oznacza, że odwołujemy się do identyfikatora (ID) o konkretnej nazwie, np. #pochyly.</td>
+  </tr>
+  <tr>
+    <td>Jak następuje wywołanie ID (wraz z wytłumaczeniem)?</td>
+    <td>
+      W HTML dodajemy do elementu atrybut <code>id="nazwa_id"</code>.<br>
+      W CSS odwołujemy się do niego przez <code>#nazwa_id</code>.<br>
+      Przykład: <code>&lt;p id="pochyly"&gt;Tekst&lt;/p&gt;</code> a w CSS: <code>p#pochyly { font-style: italic; }</code>
+    </td>
+  </tr>
+  <tr>
+    <td>Uwagi na temat stosowania ID (trzy konieczne wyliczenia)</td>
+    <td>
+      <ol>
+        <li>Każdy identyfikator ID musi być unikalny w obrębie całej strony.</li>
+        <li>ID stosuje się, gdy chcemy wyróżnić pojedynczy element.</li>
+        <li>Nie należy używać tego samego ID dla wielu elementów.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<h3>Przykład użycia ID:</h3>
+
+<p>Blok tekstu o kolorze zielonym i czcionce 14pt</p>
+<p id="pochyly">Blok tekstu o kolorze zielonym i czcionce 20pt i stylu kursywy</p>
+<p>Blok tekstu o kolorze zielonym i czcionce 14pt</p>
+
+</body>
+</html>
+<!-- Matvii Voloshchuk --!>

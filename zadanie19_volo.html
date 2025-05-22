@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 19</title>
+  <style>
+    p {
+      color: red;
+      font-size: 40mm;
+    }
+    span {
+      color: green;
+      font-size: 25mm;
+    }
+    div {
+      background-color: silver;
+    }
+    .kolor1 {
+      color: rgb(128, 0, 128); /* fioletowy */
+    }
+    .kolor2 {
+      color: rgb(255, 105, 180); /* różowy */
+    }
+    .kolor3 {
+      color: rgb(173, 216, 230); /* jasno niebieski */
+    }
+  </style>
+</head>
+<body bgcolor="silver">
+<body>
+
+<!-- Przykład 1 -->
+<div>
+  <span>
+    <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na srebrnym tle</b>,
+    a to jest zwykły tekst - również wewnątrz DIV i SPAN.
+  </span>
+  To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma srebrne tło.
+  <p>A to jest akapit (element blokowy) w ramach DIV.</p>
+</div>
+
+<!-- Przykład 2 -->
+<span>
+  <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>,
+  a to jest zwykły tekst - również wewnątrz span.
+</span>
+
+<!-- Przykład 3 -->
+<h2>Temat: Kolorowe wyliczenie z użyciem styli wpisanych.</h2>
+<ol>
+  <li class="kolor1"><span style="color: black;">Punkt pierwszy</span></li>
+  <li class="kolor2"><span style="color: black;">Punkt drugi</span></li>
+  <li class="kolor3"><span style="color: black;">Punkt trzeci</span></li>
+</ol>
+
+</body>
+</html>
+<!-- MAtvii Voloshchuk --!>
